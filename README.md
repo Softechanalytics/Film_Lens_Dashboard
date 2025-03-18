@@ -120,29 +120,27 @@ cd movielens-powerbi
 
 #### Bookmarks & Buttons:
 
-Used for toggling visuals (e.g., top movies vs. top genres).
-Insights & Highlights
-Most Popular Genres: Identifies which genre groups have the highest average ratings.
-User Demographics: Shows the gender, age group, and occupation breakdown, including geographical distribution via maps.
-Age vs. Rating: Discovers how user age correlates with average rating.
-Occupation & Age-Group Matrix: Reveals rating preferences by profession and age bracket.
-Historical Trends: Explores how movies from different decades are rated.
-Contributing
-Contributions, suggestions, and improvements are welcome!
+- Used for toggling visuals (e.g., top movies vs. top genres).
+### Insights & Highlights
+- Most Popular Genres: Identifies which genre groups have the highest average ratings.
+- User Demographics: Shows the gender, age group, and occupation breakdown, including geographical distribution via maps.
+- Age vs. Rating: Discovers how user age correlates with average rating.
+- Occupation & Age-Group Matrix: Reveals rating preferences by profession and age bracket.
+- Historical Trends: Explores how movies from different decades are rated.
 
-Fork the repository
-Create a new branch: git checkout -b feature/your-feature
-Commit your changes: git commit -m "Add some feature"
-Push to your branch: git push origin feature/your-feature
-Open a pull request in GitHub
-License
-This project is licensed under the MIT License. You’re free to modify and distribute it under the terms of this license.
+### Contributing
+- Contributions, suggestions, and improvements are welcome!
+
+### Fork the repository
+- Create a new branch: git checkout -b feature/your-feature
+- Commit your changes: git commit -m "Add some feature"
+- Push to your branch: git push origin feature/your-feature
+- Open a pull request in GitHub
+
+### License
+- This project is licensed under the MIT License. You’re free to modify and distribute it under the terms of this license.
 
 Screenshot Previews
 
-Intro Page
 
-Movie Distribution Page
-
-Avg Rating Page
 
