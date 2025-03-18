@@ -26,19 +26,20 @@ The analysis addresses several questions, such as:
 
 1. Counting movies, distinct genres, and total users
 2. Displaying gender distribution among users
-Analyzing average ratings across genres (including grouped genres)
-Showing average ratings via gauge charts and stacked visuals
-Mapping user locations and demographics
-Exploring average ratings across age groups and professions
-Visualizing top N movies and genres with toggling charts (via bookmarks)
-Creating scatter plots to compare average rating vs. age groups, plus year-based rating analysis
-Data Dictionary
-A detailed Data Dictionary is provided, but here’s a quick reference:
+3. Analyzing average ratings across genres (including grouped genres)
+4. Showing average ratings via gauge charts and stacked visuals
+5. Mapping user locations and demographics
+6. Exploring average ratings across age groups and professions
+7. Visualizing top N movies and genres with toggling charts (via bookmarks)
+8. Creating scatter plots to compare average rating vs. age groups, plus year-based rating analysis
 
-rating.csv
+## Data Dictionary
+A detailed Data [Dictionary](#Dictionary) is provided, but here’s a quick reference:
 
-user_id: Unique ID for each user
-movie_id: Unique ID for each movie
+- rating.csv
+
+-- user_id: Unique ID for each user
+-- movie_id: Unique ID for each movie
 rating: Rating score given by the user (1–5)
 timestamp: Time of the rating (Unix timestamp)
 movie.csv
