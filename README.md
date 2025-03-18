@@ -1,18 +1,3 @@
-# Financial Analysis Dashboard
-
-This repository contains a Power BI report (`Financial sample.pbix`) that provides comprehensive insights into financial data. The interactive dashboard is designed to help stakeholders analyze key financial metrics, identify trends, and make data-driven decisions.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Data Model](#data-model)
-- [Key Insights](#key-insights)
-- [Contributing](#contributing)
-- [License](#license)
-
 
 # MovieLens Power BI Analysis
 This repository contains a Power BI report (Movieslen.pbix) built on the popular MovieLens dataset. The project provides interactive visualizations and insights into movie ratings, user demographics, and genre trends.
@@ -21,26 +6,26 @@ This repository contains a Power BI report (Movieslen.pbix) built on the popular
 - [Overview](#overview)
 - [Data Dictionary](#DataDictionary)
 - [Project Structure](#ProjectStructure)
-Data Dictionary
-Project Structure
-Key Features & Pages
-Getting Started
-Usage
-Technical Details
-Insights & Highlights
-Contributing
-License
-Overview
-This Power BI dashboard explores user ratings from the MovieLens dataset. It includes:
+- [Key Features & Pages](#Keyfeatures&pages)
+- [Getting Started](#GettingStarted)
+- [Usage](#Usage)
+- [Technical Details](#TechnicalDetails)
+- [Insights & Highlights](#Insights&Highlights)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Overview](#Overview)
 
-User Demographics (age, gender, occupation, location)
-Movie Information (title, genre, release year)
-Ratings Data (scores, timestamps)
-Genre & Decade Groupings for better categorization
+## This Power BI dashboard explores user ratings from the MovieLens dataset. It includes:
+
+- User Demographics (age, gender, occupation, location)
+- Movie Information (title, genre, release year)
+- Ratings Data (scores, timestamps)
+- Genre & Decade Groupings for better categorization
+
 The analysis addresses several questions, such as:
 
-Counting movies, distinct genres, and total users
-Displaying gender distribution among users
+1. Counting movies, distinct genres, and total users
+2. Displaying gender distribution among users
 Analyzing average ratings across genres (including grouped genres)
 Showing average ratings via gauge charts and stacked visuals
 Mapping user locations and demographics
