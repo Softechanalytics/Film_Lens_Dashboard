@@ -142,7 +142,13 @@ cd movielens-powerbi
 ### License
 - This project is licensed under the MIT License. You’re free to modify and distribute it under the terms of this license.
 
-Screenshot Previews
+### Screenshot Previews
+
+![image alt](https://github.com/Softechanalytics/Film_Lens_Dashboard/blob/19903f5fc8eef224c955ff293bf0ae31f14a99dd/screen1.png)
+
+![image alt](https://github.com/Softechanalytics/Film_Lens_Dashboard/blob/19903f5fc8eef224c955ff293bf0ae31f14a99dd/screen2.png)
+
+![image alt](https://github.com/Softechanalytics/Film_Lens_Dashboard/blob/19903f5fc8eef224c955ff293bf0ae31f14a99dd/screen3.png)
 
 
 
