@@ -36,10 +36,10 @@ The analysis addresses several questions, such as:
 ## Data Dictionary
 A detailed Data [Dictionary](#Dictionary) is provided, but here’s a quick reference:
 
-- rating.csv
+### rating.csv
 
--- user_id: Unique ID for each user
--- movie_id: Unique ID for each movie
+- user_id: Unique ID for each user
+- movie_id: Unique ID for each movie
 rating: Rating score given by the user (1–5)
 timestamp: Time of the rating (Unix timestamp)
 movie.csv
