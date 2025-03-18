@@ -1,8 +1,26 @@
-#MovieLens Power BI Analysis
+# Financial Analysis Dashboard
+
+This repository contains a Power BI report (`Financial sample.pbix`) that provides comprehensive insights into financial data. The interactive dashboard is designed to help stakeholders analyze key financial metrics, identify trends, and make data-driven decisions.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Data Model](#data-model)
+- [Key Insights](#key-insights)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+# MovieLens Power BI Analysis
 This repository contains a Power BI report (Movieslen.pbix) built on the popular MovieLens dataset. The project provides interactive visualizations and insights into movie ratings, user demographics, and genre trends.
 
-Table of Contents
-Overview
+## Table of Contents
+- [Overview](#overview)
+- [Data Dictionary](#DataDictionary)
+- [Project Structure](#ProjectStructure)
 Data Dictionary
 Project Structure
 Key Features & Pages
