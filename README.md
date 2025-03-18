@@ -68,13 +68,13 @@ A detailed Data [Dictionary](#Dictionary) is provided, but here’s a quick refe
 - Gender distribution (donut chart).
 - Overall average rating (gauge chart).
 
-### 2.Movie Distribution Page
+### 2. Movie Distribution Page
 
 - Bar charts showing total movies by genre, broken down by gender.
 - Map visualization for user distribution across the globe.
 -Demographic charts (e.g., users by age group, occupation).
 
-### Avg Rating Page
+### 3. Avg Rating Page
 
 - Average rating vs. age group scatter plot.
 - Bar/line charts comparing average ratings by genre, decade, or year.
@@ -82,26 +82,30 @@ A detailed Data [Dictionary](#Dictionary) is provided, but here’s a quick refe
 Each page includes slicers (e.g., decade, occupation, genre, age group) for interactive filtering.
 
 ## Getting Started
-Clone or Download the Repository
+1. Clone or Download the Repository
 
 bash
 Copy
 git clone https://github.com/your-username/movielens-powerbi.git
 cd movielens-powerbi
-Open the Power BI File
 
-Launch Power BI Desktop.
-Open Movieslen.pbix.
-Data Refresh (Optional)
+2. Open the Power BI File
 
-If you have the raw CSV files, ensure they’re correctly referenced in the Power BI file’s Power Query settings.
-Refresh to pull the latest data if needed.
-Usage
-Navigate Between Pages: Use the bottom tabs (Intro, Movie Distr., Avg Rating) or any custom buttons/bookmarks to switch views.
-Apply Filters & Slicers: Narrow down insights by age group, occupation, genre, or decade.
-Drill-Down in Visuals: Some visuals allow drill-down for more granular data (e.g., sub-genres or year breakdowns).
-Bookmarks & Buttons: Toggle between different visuals (like Top N Movies vs. Genres) with the provided bookmarks.
-Technical Details
+- LaunchPower BI Desktop.
+- Open Movieslen.pbix.
+- 
+3. Data Refresh (Optional)
+
+- If you have the raw CSV files, ensure they’re correctly referenced in the Power BI file’s Power Query settings.
+- Refresh to pull the latest data if needed.
+
+## Usage
+- Navigate Between Pages: Use the bottom tabs (Intro, Movie Distr., Avg Rating) or any custom buttons/bookmarks to switch views.
+- Apply Filters & Slicers: Narrow down insights by age group, occupation, genre, or decade.
+- Drill-Down in Visuals: Some visuals allow drill-down for more granular data (e.g., sub-genres or year breakdowns).
+- Bookmarks & Buttons: Toggle between different visuals (like Top N Movies vs. Genres) with the provided bookmarks.
+
+## Technical Details
 Data Modeling:
 
 Relationships between rating, movie, and user tables on matching keys (e.g., user_id, movie_id).
