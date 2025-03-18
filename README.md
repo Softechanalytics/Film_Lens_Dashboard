@@ -61,26 +61,27 @@ A detailed Data [Dictionary](#Dictionary) is provided, but here’s a quick refe
 <b>Note:</b> For users under 18, age is imputed using the median age of others with the same occupation.
 
 
--- Key Features & Pages
---- 1. Intro Page
+## Key Features & Pages
+### 1. Intro Page
 
 - High-level metrics: total movies, total genres, total users.
 - Gender distribution (donut chart).
 - Overall average rating (gauge chart).
 
---- 2.Movie Distribution Page
+### 2.Movie Distribution Page
 
 - Bar charts showing total movies by genre, broken down by gender.
-Map visualization for user distribution across the globe.
-Demographic charts (e.g., users by age group, occupation).
-Avg Rating Page
+- Map visualization for user distribution across the globe.
+-Demographic charts (e.g., users by age group, occupation).
 
-Average rating vs. age group scatter plot.
-Bar/line charts comparing average ratings by genre, decade, or year.
-Matrix visual displaying average ratings across professions and age groups.
+### Avg Rating Page
+
+- Average rating vs. age group scatter plot.
+- Bar/line charts comparing average ratings by genre, decade, or year.
+- Matrix visual displaying average ratings across professions and age groups.
 Each page includes slicers (e.g., decade, occupation, genre, age group) for interactive filtering.
 
-Getting Started
+## Getting Started
 Clone or Download the Repository
 
 bash
