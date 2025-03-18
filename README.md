@@ -60,27 +60,17 @@ A detailed Data [Dictionary](#Dictionary) is provided, but here’s a quick refe
 
 <b>Note:</b> For users under 18, age is imputed using the median age of others with the same occupation.
 
-Project Structure
-python
-Copy
-movielens-powerbi/
-│
-├─ Movieslen.pbix              # Main Power BI report
-├─ Data Dictionary.docx        # Detailed explanation of columns
-├─ screen1.png                 # Screenshot of Intro page
-├─ screen2.png                 # Screenshot of Movie Distribution page
-├─ screen3.png                 # Screenshot of Avg Rating page
-├─ README.md                   # This README file
-└─ ... (any additional files or folders)
-Key Features & Pages
-Intro Page
 
-High-level metrics: total movies, total genres, total users.
-Gender distribution (donut chart).
-Overall average rating (gauge chart).
-Movie Distribution Page
+-- Key Features & Pages
+--- 1. Intro Page
 
-Bar charts showing total movies by genre, broken down by gender.
+- High-level metrics: total movies, total genres, total users.
+- Gender distribution (donut chart).
+- Overall average rating (gauge chart).
+
+--- 2.Movie Distribution Page
+
+- Bar charts showing total movies by genre, broken down by gender.
 Map visualization for user distribution across the globe.
 Demographic charts (e.g., users by age group, occupation).
 Avg Rating Page
