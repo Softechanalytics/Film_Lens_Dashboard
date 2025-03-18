@@ -108,6 +108,8 @@ cd movielens-powerbi
 ## Technical Details
 #### Data Modeling:
 
+![image alt](https://github.com/Softechanalytics/Film_Lens_Dashboard/blob/bfd461be0b65ec2e37260d2d6d459302fa5e777e/model.png)
+
 - Relationships between rating, movie, and user tables on matching keys (e.g., user_id, movie_id).
 - No circular references; star schema approach.
 
