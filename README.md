@@ -106,18 +106,19 @@ cd movielens-powerbi
 - Bookmarks & Buttons: Toggle between different visuals (like Top N Movies vs. Genres) with the provided bookmarks.
 
 ## Technical Details
-Data Modeling:
+#### Data Modeling:
 
-Relationships between rating, movie, and user tables on matching keys (e.g., user_id, movie_id).
-No circular references; star schema approach.
-Calculated Columns & Measures:
+- Relationships between rating, movie, and user tables on matching keys (e.g., user_id, movie_id).
+- No circular references; star schema approach.
 
-Age_Group classification using SWITCH() or nested IF.
-Genre Grouping using calculated columns or Power Query transformations.
-Decade Grouping for movie release years.
-Median Age Imputation for users under 18, grouped by occupation.
-Average Rating measure for visuals (e.g., AvgRating = AVERAGE(rating[rating])).
-Bookmarks & Buttons:
+#### Calculated Columns & Measures:
+- Age_Group classification using SWITCH() or nested IF.
+- Genre Grouping using calculated columns or Power Query transformations.
+- Decade Grouping for movie release years.
+- Median Age Imputation for users under 18, grouped by occupation.
+- Average Rating measure for visuals (e.g., AvgRating = AVERAGE(rating[rating])).
+
+#### Bookmarks & Buttons:
 
 Used for toggling visuals (e.g., top movies vs. top genres).
 Insights & Highlights
