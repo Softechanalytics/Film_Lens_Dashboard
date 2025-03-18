@@ -40,22 +40,25 @@ A detailed Data [Dictionary](#Dictionary) is provided, but here’s a quick refe
 
 - user_id: Unique ID for each user
 - movie_id: Unique ID for each movie
-rating: Rating score given by the user (1–5)
-timestamp: Time of the rating (Unix timestamp)
-movie.csv
+- rating: Rating score given by the user (1–5)
+- timestamp: Time of the rating (Unix timestamp)
 
-movie_id: Unique ID for each movie
-movie_name: Movie title
-year: Release year of the movie
-genre: Genres associated with the movie (separated by a pipe symbol if multiple)
-user.csv
+### movie.csv
 
-user_id: Unique ID for each user
-age: Age of the user
-gender: Gender of the user (M or F)
-occupation: Occupation of the user
-zipcode: ZIP or postal code for the user’s location
-Note: For users under 18, age is imputed using the median age of others with the same occupation.
+- movie_id: Unique ID for each movie
+- movie_name: Movie title
+- year: Release year of the movie
+- genre: Genres associated with the movie (separated by a pipe symbol if multiple)
+
+### user.csv
+
+- user_id: Unique ID for each user
+- age: Age of the user
+- gender: Gender of the user (M or F)
+- occupation: Occupation of the user
+- zipcode: ZIP or postal code for the user’s location
+
+<b>Note:</b> For users under 18, age is imputed using the median age of others with the same occupation.
 
 Project Structure
 python
